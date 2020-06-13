@@ -1,0 +1,99 @@
+h1,h2{
+	margin:0;
+}
+
+div{
+	border-radius:5px
+}
+.wrapper{
+	width:70%;
+    margin:auto;
+	background-image:linear-gradient(rgb(255,255,255),rgb(220,220,220));
+	
+}
+.header{
+	background-color:black;
+	text-align:center;
+	margin:auto;
+	height:65px;
+	color:white;
+	padding-top:5px;
+
+
+}
+
+.my-profile{
+	overflow:hidden;
+	background-image: linear-gradient(45deg, black, transparent);
+}
+img{
+	border:1px solid white;
+}
+
+}
+.div1,.div2{
+
+}
+.div1{
+	width:65%;
+	float:left;
+	margin:0;
+}
+.div2{
+	width: 30%;
+	text-align:right;
+	float:right;
+	vertical-align:top;
+	padding-right: 5px;
+}
+.page-name{
+	background-color:black;
+	color:white;
+	text-align:center;
+}
+.navi{
+	width:190px;
+	background-color:#dfdfdf;
+	text-align:center;
+    background-image:linear-gradient(45deg, black, transparent);
+    min-height:400px;
+    float:left;
+}
+.main{
+	min-width:145px;
+	float:right;
+}
+.navi a{
+	border:1px solid white;
+	background-color:black;
+	color:white;
+    padding:10px 40px;
+    text-decoration:none;
+    border-radius:25px;
+  
+}
+ul{
+	padding-left:0px;
+}
+.main-section .main p{
+	text-align:center;
+}	
+
+.navi a:hover{
+	border:0px;
+	background-color:white; 
+	color: black;
+	padding:10px 40px;
+	 border-radius:25px;
+  
+}
+
+.footer{
+	clear:left;
+
+	min-height:40px;
+	background-color:black;
+	color: white;
+	
+	text-align:center;
+}
