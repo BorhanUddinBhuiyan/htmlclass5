@@ -1,4 +1,4 @@
-h1,h2{
+.heading{
 	margin:0;
 }
 
@@ -29,11 +29,6 @@ div{
 img{
 	border:1px solid white;
 }
-
-}
-.div1,.div2{
-
-}
 .div1{
 	width:65%;
 	float:left;
@@ -60,8 +55,8 @@ img{
     float:left;
 }
 .main{
-	min-width:145px;
-	float:right;
+	width:78%;
+	float:left;
 }
 .navi .home{
 	text-decoration:none;
@@ -80,9 +75,11 @@ img{
     border-radius:25px;
   
 }
-ul{
+.list{
+	list-style-type:none;
 	padding-left:0px;
 }
+
 .main-section .main p{
 	text-align:center;
 }	
@@ -97,11 +94,18 @@ ul{
 
 
 .footer{
-	clear:left;
+	clear:both;
 
 	min-height:40px;
 	background-color:black;
 	color: white;
 	
 	text-align:center;
+}
+span{
+	color:purple;
+	font-size:20px;
+}
+code{
+	color:green;
 }
