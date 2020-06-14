@@ -63,7 +63,15 @@ img{
 	min-width:145px;
 	float:right;
 }
-.navi a{
+.navi .home{
+	text-decoration:none;
+	border:0px;
+	background-color:white; 
+	color: black;
+	padding:10px 40px;
+	border-radius:25px;
+}
+.navi .anchor{
 	border:1px solid white;
 	background-color:black;
 	color:white;
@@ -85,8 +93,8 @@ ul{
 	color: black;
 	padding:10px 40px;
 	 border-radius:25px;
-  
-}
+	}
+
 
 .footer{
 	clear:left;
